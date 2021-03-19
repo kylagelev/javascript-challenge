@@ -28,5 +28,20 @@ function runEnter() {
   var filteredData = alien.filter(alien => alien.datetime === inputValue);
 
   console.log(filteredData);
+  var tbody = d3.select("tbody");
+
+
+    // Step 1: Loop Through `data` and console.log each weather report object
+    filteredData.forEach(function(alienReport) {
+        var row = tbody.append("tr");
+
+        Object.entries(alienReport).forEach(function([key, value]) {
+            console.log(key, value);
+            var cell = row.append("td");
+            cell.text(value);
+    });
+ });
+
+  
 
 };
