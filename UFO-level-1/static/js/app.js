@@ -2,7 +2,7 @@
 var alien = data;
 
 // Select the button
-var button = d3.select("#button");
+var button = d3.select("#filter-btn");
 
 // Select the form
 var form = d3.select("#form");
@@ -18,13 +18,12 @@ function runEnter() {
   d3.event.preventDefault();
   
   // Select the input element and get the raw HTML node
-  var inputElement = d3.select("#form-control");
+  var inputElement = d3.select("#datetime");
 
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
 
   console.log(inputValue);
-  console.log(people);
 
   var filteredData = alien.filter(alien => alien.datetime === inputValue);
 
