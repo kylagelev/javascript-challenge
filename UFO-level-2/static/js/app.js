@@ -255,7 +255,21 @@ function runEnter() {
 
 
 
-    if (inputlist.length === 1)
+    if (inputlist.length === 1){
+        var filteredData = fData
+    }
+    if (inputlist.length === 2){
+        var filteredData = ffData
+    }
+    if (inputlist.length === 3){
+        var filteredData = fffData
+    }
+    if (inputlist.length === 4){
+        var filteredData = ffffData
+    }
+    if (inputlist.length === 5){
+        var filteredData = fffffData
+    }
 
 
 
