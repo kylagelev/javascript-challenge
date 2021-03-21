@@ -1,4 +1,5 @@
 # javascript-challenge
+![E.T.](https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1478637736504-K2S5E4GPWXMIWC42X8B3/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/image-asset.jpeg?format=2500w)
 
 ## "E.T. phone home" - E.T.
 
